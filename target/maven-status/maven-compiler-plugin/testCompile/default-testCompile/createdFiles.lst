@@ -1,0 +1,7 @@
+CreateDirTest.class
+GetResourceInfoTest.class
+AuthTest.class
+DeleteFileTest.class
+SaveFileTest.class
+GetDiskInfoTest.class
+BaseTest.class

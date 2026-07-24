@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GetDiskInfoTest" time="1.433" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\test-classes;E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\classes;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\naminari\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\naminari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\naminari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naminari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\naminari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\naminari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\naminari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\naminari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\naminari\.m2\repository\org\awaitility\awaitility\4.3.0\awaitility-4.3.0.jar;C:\Users\naminari\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151 2026-07-25T00-49-40_593-jvmRun1 surefire-20260725004940797_1tmp surefire_0-20260725004940797_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\test-classes;E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\classes;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\naminari\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\naminari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\naminari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naminari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\naminari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\naminari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\naminari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\naminari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\naminari\.m2\repository\org\awaitility\awaitility\4.3.0\awaitility-4.3.0.jar;C:\Users\naminari\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\naminari"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="naminari"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\naminari\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\naminari\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\naminari\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\naminari\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Zulu\zulu-21\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\msys64\ucrt64\bin;C:\Users\naminari\AppData\Local\Programs\Python\Python313;C:\Users\naminari\AppData\Local\Microsoft\WindowsApps;C:\Users\naminari\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\naminari\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.1\bin;C:\Users\naminari\AppData\Roaming\npm;C:\msys64\ucrt64\bin;C:\msys64\mingw64\bin;C:\Users\naminari\AppData\Local\Programs\Python\Python313\Scripts;D:\rclone-v1.72.1-windows-amd64\rclone-v1.72.1-windows-amd64;E:\Tesseract-OCR;C:\Program Files\Java\jdk-22\bin;D:\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\naminari\AppData\Local\Programs\Python\Python313;C:\Users\naminari\AppData\Local\Microsoft\WindowsApps;C:\Users\naminari\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\naminari\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.1\bin;C:\Users\naminari\AppData\Roaming\npm;C:\TDM-GCC-64\bin;C:\Users\naminari\AppData\Local\Programs\Ollama;C:\msys64\mingw64\bin;c:\Users\naminari\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testGetDiskInfoPositive" classname="GetDiskInfoTest" time="0.324">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://cloud-api.yandex.net/v1/disk
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=OAuth y0__wgBEJX2i6MGGNuWAyC7zMCzGDDplIqVCLJjIdrNnKU7G7rRBmVhq0vEvI4H
+				Accept=application/json, application/javascript, text/javascript, text/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Access-Control-Allow-Methods: GET, OPTIONS
+Yandex-Cloud-Request-ID: rest-2b205cdf664634900b8ee9005754598f-disk-api-stable-extapi-32
+Content-Encoding: gzip
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; preload
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Uid, X-Borigin, Accept, X-HTTP-Method, Authorization, Content-Type, X-Requested-With, Accept-Language
+Set-Cookie: _yasc=gPWR3dGzJOFeExYSk37N/g9s4gXqU6GxKN3KgbgkAWw72c3gNgNdp193ezw7OcFzy6s=; domain=.yandex.net; path=/; expires=Mon, 21 Jul 2036 21:50:37 GMT; SameSite=None; Secure
+Content-Type: application/json; charset=utf-8
+NEL: {"report_to": "network-errors", "max_age": 604800, "success_fraction": 0.005, "failure_fraction": 0.5}
+Vary: Accept-Encoding
+Date: Fri, 24 Jul 2026 21:50:37 GMT
+Report-To: {"group": "network-errors", "max_age": 604800, "endpoints": [{"url": "https://dr.yandex.net/ya360/nel", "priority": 1}, {"url": "https://dr2.yandex.net/ya360/nel", "priority": 2}]}
+Transfer-Encoding: chunked
+
+{
+    "total_space": 5368709120,
+    "used_space": 3691252185,
+    "trash_size": 0,
+    "max_file_size": 1073741824,
+    "paid_max_file_size": 53687091200,
+    "photounlim_size": 0,
+    "system_folders": {
+        "downloads": "disk:/Загрузки/",
+        "applications": "disk:/Приложения",
+        "screenshots": "disk:/Скриншоты/",
+        "photostream": "disk:/Фотокамера/",
+        "social": "disk:/Социальные сети/",
+        "facebook": "disk:/Социальные сети/Facebook",
+        "google": "disk:/Социальные сети/Google+",
+        "instagram": "disk:/Социальные сети/Instagram",
+        "vkontakte": "disk:/Социальные сети/ВКонтакте",
+        "mailru": "disk:/Социальные сети/Мой Мир",
+        "odnoklassniki": "disk:/Социальные сети/Одноклассники",
+        "scans": "disk:/Сканы",
+        "attach": "disk:/Почтовые вложения",
+        "messenger": "disk:/Файлы Мессенджера",
+        "calendar": "disk:/Материалы встреч"
+    },
+    "is_paid": false,
+    "revision": 1784929836865021,
+    "user": {
+        "uid": "1684208405",
+        "login": "naminari",
+        "display_name": "Леонид Иванов",
+        "country": "ru",
+        "is_child": false,
+        "reg_time": "2022-10-25T19:37:12+00:00"
+    },
+    "unlimited_autoupload_enabled": false,
+    "reg_time": "2022-10-25T19:37:12+00:00",
+    "is_idm_managed_public_access": false,
+    "is_idm_managed_folder_address_access": false,
+    "is_sync_shared_folder_desktop": false,
+    "is_sync_vd_desktop": false,
+    "payment_flow": true,
+    "hide_screenshots_in_photoslice": false,
+    "is_legal_entity": false,
+    "monthly_traffic_limit": 2,
+    "monthly_traffic_limit_upgrades": {
+        "pro": 3
+    },
+    "file_size_limit_upgrades": {
+        "paid": 53687091200,
+        "pro": 107374182400
+    },
+    "disk_size": 3691252185
+}
+]]></system-out>
+  </testcase>
+</testsuite>
