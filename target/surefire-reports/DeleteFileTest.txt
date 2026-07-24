@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: DeleteFileTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.82 s -- in DeleteFileTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.74 s -- in DeleteFileTest

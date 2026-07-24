@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GetDiskInfoTest" time="1.433" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GetDiskInfoTest" time="1.332" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151 2026-07-25T00-49-40_593-jvmRun1 surefire-20260725004940797_1tmp surefire_0-20260725004940797_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863\surefirebooter-20260725013221218_3.jar C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863 2026-07-25T01-32-20_992-jvmRun1 surefire-20260725013221218_1tmp surefire_0-20260725013221218_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\test-classes;E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\classes;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\naminari\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\naminari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\naminari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naminari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\naminari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\naminari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\naminari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\naminari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\naminari\.m2\repository\org\awaitility\awaitility\4.3.0\awaitility-4.3.0.jar;C:\Users\naminari\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863\surefirebooter-20260725013221218_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testGetDiskInfoPositive" classname="GetDiskInfoTest" time="0.324">
+  <testcase name="testGetDiskInfoPositive" classname="GetDiskInfoTest" time="0.198">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://cloud-api.yandex.net/v1/disk
 Proxy:			<none>
@@ -72,20 +72,20 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Cache-Control: no-cache
-Access-Control-Allow-Methods: GET, OPTIONS
-Yandex-Cloud-Request-ID: rest-2b205cdf664634900b8ee9005754598f-disk-api-stable-extapi-32
-Content-Encoding: gzip
-Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Authorization, Accept-Language, X-Requested-With, X-Borigin, Content-Type, X-Uid, Accept, X-HTTP-Method
+Set-Cookie: _yasc=zjyFPTc9yvJPztvX3cmubAoO2TRvAXYvHlV0YrGIIkm0mmPLoKka6e8Qe8D/26HK+YY=; domain=.yandex.net; path=/; expires=Mon, 21 Jul 2036 22:33:15 GMT; SameSite=None; Secure
 Strict-Transport-Security: max-age=31536000; preload
-Access-Control-Allow-Credentials: true
-Access-Control-Allow-Headers: X-Uid, X-Borigin, Accept, X-HTTP-Method, Authorization, Content-Type, X-Requested-With, Accept-Language
-Set-Cookie: _yasc=gPWR3dGzJOFeExYSk37N/g9s4gXqU6GxKN3KgbgkAWw72c3gNgNdp193ezw7OcFzy6s=; domain=.yandex.net; path=/; expires=Mon, 21 Jul 2036 21:50:37 GMT; SameSite=None; Secure
-Content-Type: application/json; charset=utf-8
-NEL: {"report_to": "network-errors", "max_age": 604800, "success_fraction": 0.005, "failure_fraction": 0.5}
+Content-Encoding: gzip
 Vary: Accept-Encoding
-Date: Fri, 24 Jul 2026 21:50:37 GMT
+Access-Control-Allow-Credentials: true
 Report-To: {"group": "network-errors", "max_age": 604800, "endpoints": [{"url": "https://dr.yandex.net/ya360/nel", "priority": 1}, {"url": "https://dr2.yandex.net/ya360/nel", "priority": 2}]}
+Date: Fri, 24 Jul 2026 22:33:15 GMT
+Access-Control-Allow-Methods: GET, OPTIONS
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+NEL: {"report_to": "network-errors", "max_age": 604800, "success_fraction": 0.005, "failure_fraction": 0.5}
+Cache-Control: no-cache
+Yandex-Cloud-Request-ID: rest-7d053d92495554e0fb7682e8cf69058d-disk-api-stable-extapi-915
 Transfer-Encoding: chunked
 
 {
@@ -113,7 +113,7 @@ Transfer-Encoding: chunked
         "calendar": "disk:/Материалы встреч"
     },
     "is_paid": false,
-    "revision": 1784929836865021,
+    "revision": 1784932395117427,
     "user": {
         "uid": "1684208405",
         "login": "naminari",

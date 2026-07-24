@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DeleteFileTest" time="43.82" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DeleteFileTest" time="41.744" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151 2026-07-25T00-49-40_593-jvmRun1 surefire-20260725004940797_1tmp surefire_0-20260725004940797_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863\surefirebooter-20260725013221218_3.jar C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863 2026-07-25T01-32-20_992-jvmRun1 surefire-20260725013221218_1tmp surefire_0-20260725013221218_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\test-classes;E:\Проекты\yandexDisk_autoTest\disk-rest-tests\target\classes;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\naminari\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\naminari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\naminari\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\naminari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naminari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\naminari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\naminari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\naminari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\naminari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\naminari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\naminari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\naminari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\naminari\.m2\repository\org\awaitility\awaitility\4.3.0\awaitility-4.3.0.jar;C:\Users\naminari\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\naminari\AppData\Local\Temp\surefire18393532364062881151\surefirebooter-20260725004940797_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\naminari\AppData\Local\Temp\surefire16794632272323630863\surefirebooter-20260725013221218_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -58,10 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testMoveFileToTrash" classname="DeleteFileTest" time="3.88"/>
-  <testcase name="testDeleteEmptyFile" classname="DeleteFileTest" time="1.858"/>
-  <testcase name="testDeleteLargeFilePositive" classname="DeleteFileTest" time="18.286"/>
-  <testcase name="testRepeatedDeleteDuringAsyncOperation" classname="DeleteFileTest" time="18.104"/>
-  <testcase name="testDeleteFileEmptyPath" classname="DeleteFileTest" time="0.192"/>
-  <testcase name="testDeleteNonExistentFile" classname="DeleteFileTest" time="0.324"/>
+  <testcase name="testMoveFileToTrash" classname="DeleteFileTest" time="2.419"/>
+  <testcase name="testDeleteEmptyFile" classname="DeleteFileTest" time="1.791"/>
+  <testcase name="testDeleteLargeFilePositive" classname="DeleteFileTest" time="18.132"/>
+  <testcase name="testRepeatedDeleteDuringAsyncOperation" classname="DeleteFileTest" time="17.655"/>
+  <testcase name="testDeleteFileEmptyPath" classname="DeleteFileTest" time="0.181"/>
+  <testcase name="testDeleteNonExistentFile" classname="DeleteFileTest" time="0.271"/>
 </testsuite>
