@@ -1,4 +1,6 @@
-import io.github.cdimascio.dotenv.Dotenv;
+package base;
+
+import config.TestConfig;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,20 +12,11 @@ import static org.awaitility.Awaitility.await;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public abstract class BaseTest {
-    protected static final String BASE_URL = "https://cloud-api.yandex.net/v1";
-    protected static final String TOKEN;
-
-    static {
-        Dotenv dotenv = Dotenv.configure().directory("./").load();
-        TOKEN = dotenv.get("YANDEX_DISK_TOKEN");
-        if (TOKEN == null || TOKEN.isEmpty()) {
-            throw new IllegalStateException("YANDEX_DISK_TOKEN не найден в .env");
-        }
-    }
+    protected static final String TOKEN = TestConfig.TOKEN;
 
     @BeforeAll
     static void setUp() {
-        RestAssured.baseURI = BASE_URL;
+        RestAssured.baseURI = TestConfig.BASE_URL;
     }
 
     protected static void createFolder(String path) {
@@ -55,8 +48,8 @@ public abstract class BaseTest {
 
     protected static void waitForOperationSuccess(String href) {
         await()
-                .atMost(120, TimeUnit.SECONDS)
-                .pollInterval(2, TimeUnit.SECONDS)
+                .atMost(TestConfig.OPERATION_TIMEOUT_SECONDS, TimeUnit.SECONDS)
+                .pollInterval(TestConfig.OPERATION_POLL_INTERVAL_SECONDS, TimeUnit.SECONDS)
                 .until(() -> {
                     String state = given()
                             .header("Authorization", "OAuth " + TOKEN)

@@ -1,3 +1,4 @@
+package resources;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -7,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+
+import base.BaseTest;
 
 import java.util.stream.Stream;
 

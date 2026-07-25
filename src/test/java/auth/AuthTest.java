@@ -1,7 +1,10 @@
+package auth;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import base.BaseTest;
 
 import static io.restassured.RestAssured.given;
 
