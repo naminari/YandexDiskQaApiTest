@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import base.BaseTest;
@@ -16,6 +17,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 import java.nio.charset.StandardCharsets;
 
+@Tag("resources")
 public class SaveFileTest extends BaseTest {
     private static String testRoot;
     private static final String TEST_FILE_URL = "http://speedtest.tele2.net/1MB.zip";

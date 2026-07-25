@@ -4,6 +4,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import base.BaseTest;
@@ -13,6 +14,7 @@ import static org.hamcrest.Matchers.hasItem;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
+@Tag("resources")
 public class DeleteFileTest extends BaseTest {
     private static String testRoot;
     private static final int LARGE_FILE_SIZE_BYTES = 2 * 1024 * 1024;
@@ -83,6 +85,7 @@ public class DeleteFileTest extends BaseTest {
     }
 
     @Test
+    @Tag("async")
     public void testDeleteLargeFilePositive() {
         String filePath = testRoot + "/test_20mb_async.zip";
         uploadFile(filePath, LARGE_FILE_SIZE_BYTES);
@@ -147,6 +150,7 @@ public class DeleteFileTest extends BaseTest {
     }
 
     @Test
+    @Tag("async")
     public void testRepeatedDeleteDuringAsyncOperation() {
         String filePath = testRoot + "/test_repeat_delete.zip";
         uploadFile(filePath, LARGE_FILE_SIZE_BYTES);

@@ -1,6 +1,7 @@
 package resources;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import base.BaseTest;
@@ -9,6 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.nullValue;
 
+@Tag("resources")
 public class GetResourceInfoTest extends BaseTest {
     private static String testRoot;
     private static String dirPath;

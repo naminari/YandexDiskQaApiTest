@@ -1,7 +1,8 @@
-package dir;
+package disk;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import base.BaseTest;
@@ -9,6 +10,7 @@ import base.BaseTest;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+@Tag("disk")
 public class GetDiskInfoTest extends BaseTest {
     private static String testRoot;
 

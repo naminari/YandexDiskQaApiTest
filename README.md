@@ -49,7 +49,20 @@ YANDEX_DISK_TOKEN=<oauth-токен полигона>
 ```bash
 mvn test
 ```
+### Тесты по тэгам
+```bash
+## Авторизация
+mvn test -Dgroups=auth
 
+## Операции с ресурсами диска
+mvn test -Dgroups=resource
+
+## Метаинформция диска
+mvn test -Dgroups=disk
+
+## Асинхронные тесты
+mvn test -Dgroups=async
+```
 
 ### Тесты конкретного класса
 ```bash
